@@ -97,10 +97,8 @@
 <!--Header-->
 <header class="header-home header-home--color">
   <div class="container">
-    <div class="row d-flex ju header-home__webapp-img-wrap" style="overflow: hidden;">
-      <div>
-        <img alt="" class="header-home__webapp-img" src="images/dpr5.png" style="border-radius: 12px;">
-      </div>
+    <div class="row header-home__webapp-img-wrap" style="overflow: hidden;">
+
       <div class="col-12">
         <h2 class="header-home__title mx-2">
           درگاه پرداخت سامان کیش
@@ -126,6 +124,9 @@
         <div class="logo__row">
           <h3> اولین و تنها درگاه پرداخت برای بانک رفاه در مارکت های ایران</h3>
         </div>
+        <div class="header-home__btns header-home__btns-messenger">
+          <a href="10_get-app.html" class="site-btn site-btn--accent header-home__btn"> خرید افزونه </a>
+        </div>
       </div>
     </div>
   </div>
@@ -137,7 +138,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 class="section__title">تنها افزونه ای که میتوانید با اطمینان کامل از کارکرد فوق العادش لذت ببرید</h3>
+        <h3 class="section__title">ویژگی های درگاه پرداخت سامان کیش بانک رفاه</h3>
         <p class="section__description"> با تنظیمات ساده و کاربردی این افزونه بدون دغدغه و به راحتی از سیستم پرداخت لذت ببرید. </p>
       </div>
     </div>
@@ -159,21 +160,7 @@
               <p> سریع و آسان </p>
 
             </li>
-            <li class="carousel__navigation-item" role="presentation" tabindex="2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
-                <rect class="svg-bg" width="120" height="120"></rect>
-                <path class="svg-light-gray" d="M112,36a2,2,0,0,1,2,2V50a2,2,0,0,1-4,0V38A2,2,0,0,1,112,36Zm-6,6h12a2,2,0,0,1,0,4H106A2,2,0,0,1,106,42ZM8,8a2,2,0,0,1,2,2V22a2,2,0,0,1-4,0V10A2,2,0,0,1,8,8ZM2,14H14a2,2,0,0,1,0,4H2A2,2,0,0,1,2,14ZM20,92a2,2,0,0,1,2,2v12a2,2,0,0,1-4,0V94A2,2,0,0,1,20,92Zm-6,6H26a2,2,0,0,1,0,4H14A2,2,0,0,1,14,98ZM60,20A40,40,0,1,1,20,60,40,40,0,0,1,60,20Z"></path>
-                <g id="shield">
-                  <path id="shield_light" class="svg-light" d="M60.752,81.9A2.866,2.866,0,0,1,60,82V16a1.975,1.975,0,0,1,1.18.393c3.37,2.5,13.594,9.343,26.121,10.54A3,3,0,0,1,89.993,29.9C90.138,39.995,88.551,74.278,60.752,81.9Z"></path>
-                  <path id="shield_dark" class="svg-gray" d="M59.248,81.9A2.867,2.867,0,0,0,60,82V16a1.975,1.975,0,0,0-1.18.393c-3.37,2.5-13.594,9.343-26.121,10.54A3,3,0,0,0,30.007,29.9C29.862,39.995,31.449,74.278,59.248,81.9Z"></path>
-                </g>
-                <g id="lock">
-                  <path id="lock-2" data-name="lock" class="svg-element" d="M70,75.25H88a4,4,0,0,1,4,4V92a4,4,0,0,1-4,4H70a4,4,0,0,1-4-4V79.25A4,4,0,0,1,70,75.25Zm13.522,0v-4.61c0-2.864-1.712-5.186-4.522-5.186s-4.522,2.322-4.522,5.186v4.61H71.087V68.915A6.85,6.85,0,0,1,77.87,62H80.13a6.85,6.85,0,0,1,6.783,6.915v6.339H83.522Z"></path>
-                  <path id="hole" class="svg-white" d="M79,78.75A3.453,3.453,0,1,1,75.594,82.2,3.43,3.43,0,0,1,79,78.75ZM77.3,82.17H80.7l1.13,8.068H76.174Z"></path>
-                </g>
-              </svg>
-              <p>اورجینال</p>
-            </li>
+
             <li class="carousel__navigation-item" role="presentation" tabindex="3">
               <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
                 <rect class="svg-bg" width="120" height="120"></rect>
@@ -190,7 +177,7 @@
                   <path id="text-4" data-name="text" class="svg-element" d="M52,68h8a2,2,0,0,1,0,4H52A2,2,0,0,1,52,68Zm0,8h8a2,2,0,0,1,0,4H52A2,2,0,0,1,52,76Z"></path>
                 </g>
               </svg>
-              <p>بهینه و سبک</p>
+              <p>ساده و منعطف </p>
             </li>
             <li class="carousel__navigation-item" role="presentation" tabindex="4">
               <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
@@ -220,36 +207,28 @@
         <div class="slider slider-img slider-img--big" id="feature-slider">
           <div class="carousel__slide">
             <div class="carousel__slide-img">
-              <img alt="" src="images/24-hour-support.jpg">
+              <img alt="" src="images/dpr222.png">
             </div>
             <div class="carousel__slide-content">
-              <h4 class="carousel__slide-title"> از انتخاب ما برای خرید اطمینان داشته باشید 💚 </h4>
+              <h4 class="carousel__slide-title"> ریدایرکت خودکار </h4>
               <p class="carousel__slide-description">
-تیم حرفه ای ما 24 ساعته در کنار شماست تا در این روند بهترین تجربه را داشته باشید.                </p>
+کاربر را پس از زمان مشخصی از انجام عملیات به صفحه ی پرداخت بازگردانید                </p>
             </div>
           </div>
           <div class="carousel__slide">
             <div class="carousel__slide-img">
-              <img alt="" src="images/dpr.png">
+              <img alt="" src="images/dpr3333.png">
             </div>
             <div class="carousel__slide-content">
-              <h4 class="carousel__slide-title">نصب و راه اندازی اسان است ؟</h4>
+              <h4 class="carousel__slide-title"> پشتیبانی همراه و همدل  </h4>
               <p class="carousel__slide-description">
-                تیک فعالسازی را بزنید و از راه اندازی اسان ان لذت ببرید😍
+                پاسخ سوالات و موارد احتمالی که برای شما پیش خواهد امد را در سریع ترین زمان ممکن حل خواهیم کرد😍
                 </p>
             </div>
           </div>
           <div class="carousel__slide">
             <div class="carousel__slide-img">
-              <img alt="" src="images/sep.png">
-            </div>
-            <div class="carousel__slide-content">
-              <h4 class="carousel__slide-title">  افزونه مورد تایید بانک رفاه </h4>
-            </div>
-          </div>
-          <div class="carousel__slide">
-            <div class="carousel__slide-img">
-              <img alt="" src="images/dpr3.png">
+              <img alt="" src="images/dpr222.png">
             </div>
             <div class="carousel__slide-content">
               <h4 class="carousel__slide-title"> کاربری ساده و منعطف </h4>
@@ -260,13 +239,12 @@
           </div>
           <div class="carousel__slide">
             <div class="carousel__slide-img">
-              <img alt="" src="images/dpr10.png">
+              <img alt="" src="images/dpr444.png">
             </div>
             <div class="carousel__slide-content">
-              <h4 class="carousel__slide-title"> کاربر را به صورت خودکار به صفحه ی اصلی برگردانید. </h4>
+              <h4 class="carousel__slide-title"> ساده و منعطف </h4>
               <p class="carousel__slide-description">
-                بعد از پرداخت کاربر تعیین کنید که طی چه مدت  به صورت خودکار و بدون دخالت و گیج شدن ،کاربر به صفحه ی فروشگاه تان بازگردد.
-              </p>
+شما میتوانید متن دکمه ها و پیام ها را شخصی سازی کنید               </p>
             </div>
           </div>
         </div>
@@ -374,13 +352,12 @@
     <div class="row">
       <div class="col-12">
         <h3 class="download__title"> درگاه پرداخت بانک رفاه را همین الان از راست چین تهیه کنید</h3>
-        <h3>همراه با آموزش کامل و جامع برای راحتی شما</h3>
+
       </div>
     </div>
     <div class="row download__btns">
-      <div class="col-6">
-      </div>
-      <div class="col-6">
+
+      <div class="col-12">
         <a href="" class="site-btn site-btn--dark site-btn--download site-btn--left">
           خرید از راست چین
         </a>
